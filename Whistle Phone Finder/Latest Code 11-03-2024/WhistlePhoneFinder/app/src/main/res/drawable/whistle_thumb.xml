@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <stroke android:color="@color/gray"/>
+            <size
+                 android:height="14dp"
+                android:width="14dp"/>
+            <solid android:color="#D8D2D2"/>
+
+        </shape>
+    </item>
+    <item
+        android:drawable="?android:selectableItemBackgroundBorderless"/>
+</layer-list>

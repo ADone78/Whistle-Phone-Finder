@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/notificationSwitchOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/switch_on"
+            android:checked="true"
+            android:paddingStart="@dimen/_15sdp"
+            android:thumbTint="@color/white"
+            android:trackTint="#7165E3"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageButton
+            android:id="@+id/notificationSwitchOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/switch_off"
+            android:checked="true"
+            android:paddingStart="@dimen/_15sdp"
+            android:thumbTint="@color/white"
+            android:trackTint="#7165E3"
+            android:visibility="gone"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+</LinearLayout>

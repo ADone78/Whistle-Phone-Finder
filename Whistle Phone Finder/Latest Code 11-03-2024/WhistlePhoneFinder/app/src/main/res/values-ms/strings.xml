@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finder Telefon Wisel </string>
+    <string name="thanksForRatingUs"> Terima Kasih Untuk Penarafan Kami </string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">Apa yang anda fikir tentang aplikasi kami? </string>
+    <string name="PP_Introduction">Pengenalan </string>
+    <string name="Introduction_text">Jika anda memilih untuk menggunakan aplikasi kami, maka anda bersetuju untuk koleksi dan penggunaan maklumat dalam hubungan dengan dasar ini. Maklumat peribadi yang kita kutip digunakan untuk menyediakan dan mempertingkatkan fungsian. Kami tidak akan menggunakan atau berkongsi maklumat anda dengan sesiapa kecuali seperti yang diterangkan dalam dasar Privasi Ini. </string>
+    <string name="PP_Storage_Permissoin">Keizinan Storan </string>
+    <string name="PP_Storage_Permission_Text">Kami memerlukan keizinan storan telefon anda untuk melengkapkan operasi teras aplikasi. Jika anda ingin mendapatkan kefungsian penuh aplikasi kami, anda mesti memberikan keizinan storan kepada aplikasi kami. Dengan keizinan ini, aplikasi boleh baca/ubahsuai kandungan telefon telefon e.g. Walau bagaimanapun, kami tidak akan mengumpul data anda untuk apa-apa peribadi atau penggunaan komersial. </string>
+    <string name="PP_Children_Policy">Polisi Kanak-kanak </string>
+    <string name="Children_policy_Text">Aplikasi ini tidak alamat sesiapa di bawah umur 13 tahun. Kami tidak tahu dengan mengumpul maklumat peribadi yang mengenalpasti maklumat dari kanak-kanak di bawah 13. </string>
+    <string name="PP_Other_Permissions">Keizinan Lain </string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>Baca Kenalan/Tulis </b>
+-Untuk mencipta sandar dan pulih kenalan
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">Koleksi Maklumat dan Guna </string>
+    <string name="PP_Information_Collection_Text">Kami tidak akan mendapat apa-apa data yang tidak perlu atau berkongsi dengan sesiapa. Maklumat yang kami minta adalah terus semula pada peranti anda dan tidak dikumpulkan oleh kami dalam mana-mana cara. App tersebut juga menggunakan perkhidmatan parti ketiga yang mungkin mengumpul maklumat yang digunakan untuk mengenal pasti anda cth. Google. </string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">Finder Telefon sudah dibenarkan! </string>
+    <string name="ok">Ok. </string>
+    <string name="loading">Memuatkan </string>
+    <string name="loadingAd">Memuatkan Tambah </string>
+    <string name="confirm_exit">Sahkan Keluar! </string>
+    <string name="are_you_sure_you_want_to_exit">Anda pasti hendak keluar? </string>
+    <string name="yes">Ya, </string>
+    <string name="no">Tidak </string>
+    <string name="exit">Keluar </string>
+    <string name="weNeedSomeAccess">Kita perlu akses. </string>
+    <string name="enableTheAppAccess">Benarkan keizinan untuk fungsian yang lebih baik. </string>
+    <string name="selectYourNativeLanguage">Pilih Bahasa Anda </string>
+    <string name="searchLanguage">Pilih Bahasa </string>
+    <string name="vibration">Getaran </string>
+    <string name="heartbeat_type">Jenis Jantung </string>
+    <string name="according_to_ringtone">Menurut Rington </string>
+    <string name="continuous">Berterusan </string>
+    <string name="language">Bahasa </string>
+    <string name="whistle_sensitivity">Kepekaan Wisel </string>
+    <string name="smart_mode">Mod Pintar </string>
+    <string name="themes">Tema </string>
+    <string name="ringtone">Nada dering </string>
+    <string name="length_seconds">Panjang Volum </string>
+    <string name="custom_1">Suai 1 </string>
+    <string name="custom_2">Suai 2 </string>
+    <string name="custom_3">Suai 3 </string>
+    <string name="select_from_phone">Pilih Dari Telefon </string>
+    <string name="volume">Volum </string>
+    <string name="rate_your_opinion">Kadar Pendapat Anda </string>
+    <string name="help_us_to_improve_on_play_store">Membantu kami untuk memperbaiki kedai bermain. </string>
+    <string name="flashlight">Lampu suluh </string>
+    <string name="blinking">Membutakan </string>
+    <string name="feedback">Maklum balas! </string>
+    <string name="describe_your_experience_here">Gambarkan pengalaman anda di sini. </string>
+    <string name="cancel">Batal </string>
+    <string name="submit">Hantar </string>
+    <string name="remove_ads">Buang Iklan </string>
+    <string name="settings">Tetapan </string>
+    <string name="rate_app">Aplikan </string>
+    <string name="share_app">Aplikasi Kongsi </string>
+    <string name="more_app">Aplikasi Lebih </string>
+    <string name="privacy_policy">Polisi peribadi </string>
+    <string name="whistle">Wisel </string>
+    <string name="phone_finder">Finder Telefon </string>
+    <string name="get_started">Mulakan </string>
+    <string name="media_recorder">Perakam Media </string>
+    <string name="grant_permission_to_record_audio">Beri keizinan untuk merakam audio. </string>
+    <string name="allow">Benarkan </string>
+    <string name="notification_access">Capaian Pemberitahuan </string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">Beri keizinan untuk menghantar pemberitahuan anda dari aplikasi. </string>
+    <string name="flashlight_on_off_when_ringing">Lampu suluh pada/off bila berbunyi </string>
+    <string name="vibration_on_off_when_ringing">Getaran pada/dimatikan bila berbunyi </string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">Pengecaman wisel dimatikan bila skrin telefon terjaga </string>
+    <string name="dark_mode">Mod Gelap </string>
+    <string name="user_canceled">Dibatalkan </string>
+    <string name="purchase_failed">Pembelian gagal </string>
+    <string name="purchasedSuccessfully">Berjaya Dibeli. </string>
+    <string name="bought">Dibeli </string>
+    <string name="buyFor">Beli Untuk </string>
+    <string name="accept">Terima</string>
+
+    <string name="use_this_app_without_seeing_any_advertisement">Gunakan aplikasi ini tanpa melihat sebarang iklan</string>
+    <string name="all_premium_items">Semua ITEM PREMIUM</string>
+    <string name="buy_for_rs_480_00">BELI Untuk RS 480.00</string>
+    <string name="no_more_ads">Tiada lagi iklan</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">Beralih kepada mod pintar dengan iklan video pantas.</string>
+    <string name="skip_ad">Langkau Iklan</string>
+    <string name="video_starting_in">Video bermula dalam</string>
+    <string name="on">pada</string>
+    <string name="off">mati</string>
+
+</resources>

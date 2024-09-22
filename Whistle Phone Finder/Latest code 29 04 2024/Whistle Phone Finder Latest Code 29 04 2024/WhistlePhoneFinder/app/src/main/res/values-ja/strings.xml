@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">ホイッスル・フォン・ファインダー</string>
+    <string name="thanksForRatingUs"> レーティング・アスのおかげ</string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">私たちのアプリのことをどう思う ?</string>
+    <string name="PP_Introduction">伝来</string>
+    <string name="Introduction_text">アプリケーションの使用を選択した場合は、このポリシーに関連する情報の収集と使用に同意する必要があります。 収集した個人情報は、機能の提供と向上に使用されます。 このプライバシー・ポリシーに記載されている場合を除き、お客様の情報を利用することはできません。</string>
+    <string name="PP_Storage_Permissoin">ストレージ許可</string>
+    <string name="PP_Storage_Permission_Text">アプリのコア操作を完了するために、お客様の電話のストレージ許可を要求しています。 アプリケーションの全機能を取得する場合は、アプリケーションにストレージ許可を付与する必要があります。 この権限を使用すると、アプリは電話の内容の読み取り/ 変更を行うことができます。 ただし、個人的または商業的な使用のためにデータを収集することはありません。</string>
+    <string name="PP_Children_Policy">子ポリシー</string>
+    <string name="Children_policy_Text">このアプリケーションは、 13歳未満の誰にも対応していません。 当社は、 13歳未満の子供の個人情報を故意に収集することはありません。</string>
+    <string name="PP_Other_Permissions">その他の権限</string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>連絡先の読み取り/書き込み</b>
+- 連絡先のバックアップおよび復元を作成する
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">情報の収集および使用</string>
+    <string name="PP_Information_Collection_Text">不要なデータや、誰とも共有することはできません。 要求した情報は、デバイス上に保持され、いかなる方法でも当社によって収集されるものではありません。 このアプリは、 Googleなどのユーザーの識別に使用される情報を収集する第三者サービスを使用します。</string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">ホイッスル・ファインダーが使用可能になりました。</string>
+    <string name="ok">オク</string>
+    <string name="loading">ロード中</string>
+    <string name="loadingAd">追加ロード中</string>
+    <string name="confirm_exit">終了の確認</string>
+    <string name="are_you_sure_you_want_to_exit">終了しますか ?</string>
+    <string name="yes">そうだ</string>
+    <string name="no">違う。</string>
+    <string name="exit">出口</string>
+    <string name="weNeedSomeAccess">アクセスが必要なのは</string>
+    <string name="enableTheAppAccess">より良い機能性を実現するために </string>
+    <string name="selectYourNativeLanguage">言語の選択</string>
+    <string name="searchLanguage">言語の選択</string>
+    <string name="vibration">バイブレーション</string>
+    <string name="heartbeat_type">ハートビート・タイプ</string>
+    <string name="according_to_ringtone">リングーンによると</string>
+    <string name="continuous">継続的</string>
+    <string name="language">言語</string>
+    <string name="whistle_sensitivity">ホイッスル・センシティビティ</string>
+    <string name="smart_mode">スマート・モード</string>
+    <string name="themes">テメス</string>
+    <string name="ringtone">リントーン</string>
+    <string name="length_seconds">ボリューム長</string>
+    <string name="custom_1">カスタム 1</string>
+    <string name="custom_2">カスタム 2</string>
+    <string name="custom_3">カスタム 3</string>
+    <string name="select_from_phone">電話から選択</string>
+    <string name="volume">体積</string>
+    <string name="rate_your_opinion">あなたの意見を評価する</string>
+    <string name="help_us_to_improve_on_play_store">遊びの店を良くするのを手伝ってくれ。</string>
+    <string name="flashlight">フラッシュライト</string>
+    <string name="blinking">ブリリンク</string>
+    <string name="feedback">フィードバック!</string>
+    <string name="describe_your_experience_here">ここでの経験を述べてください。</string>
+    <string name="cancel">キャンセル</string>
+    <string name="submit">送信</string>
+    <string name="remove_ads">広告の削除</string>
+    <string name="settings">設定</string>
+    <string name="rate_app">料金アプリケーション</string>
+    <string name="share_app">アプリの共有</string>
+    <string name="more_app">追加のアプリ</string>
+    <string name="privacy_policy">プライバシー・ポリシー</string>
+    <string name="whistle">ホイッスル</string>
+    <string name="phone_finder">電話ファインダー</string>
+    <string name="get_started">始めましょう</string>
+    <string name="media_recorder">メディア・レコーダー</string>
+    <string name="grant_permission_to_record_audio">音声を録音する許可を付与します</string>
+    <string name="allow">許可</string>
+    <string name="notification_access">通知アクセス</string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">アプリケーションから通知を送信する権限を付与します。</string>
+    <string name="flashlight_on_off_when_ringing">リンギング時に点滅する /オフにする</string>
+    <string name="vibration_on_off_when_ringing">リンギング中のヴァイブレーションオン/オフ</string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">電話の画面が目を覚ますと、ホイッスルの認識はオフになります。</string>
+    <string name="dark_mode">ダーク・モード</string>
+    <string name="user_canceled">キャンセル済み</string>
+    <string name="purchase_failed">購入失敗</string>
+    <string name="purchasedSuccessfully">正常に購入されました。</string>
+    <string name="bought">ボート</string>
+    <string name="buyFor">次の購入対象</string>
+    <string name="accept">受け入れる</string>
+
+    <string name="use_this_app_without_seeing_any_advertisement">広告を表示せずにこのアプリを使用する</string>
+    <string name="all_premium_items">すべてのプレミアムアイテム</string>
+    <string name="buy_for_rs_480_00">RS 480.00 で購入</string>
+    <string name="no_more_ads">もう広告はありません</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">スマート モードに切り替えて、クイック動画広告を表示します。</string>
+    <string name="skip_ad">広告をスキップ</string>
+    <string name="video_starting_in">から始まるビデオ</string>
+    <string name="on">の上</string>
+    <string name="off">オフ</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Düdük Telefon Bulucu </string>
+    <string name="thanksForRatingUs"> Değerlendirdiğin Için Teşekkürler. </string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">Uygulamamız hakkında ne düşünüyorsun? </string>
+    <string name="PP_Introduction">Giriş </string>
+    <string name="Introduction_text">Uygulamamızı kullanmayı seçerseniz, bu ilkeyle ilgili olarak bilgilerin toplanmasını ve kullanılmasını kabul etmiş olur. Topladığımız kişisel bilgiler, işlevselliği sağlamak ve geliştirmek için kullanılır. Bu Gizlilik İlkesinde açıklananlar dışında, bilgilerinizi kimseyle paylaşmaz ya da paylaşmayacağız. </string>
+    <string name="PP_Storage_Permissoin">Depolama İzni </string>
+    <string name="PP_Storage_Permission_Text">Uygulamadaki temel işlemleri tamamlamak için telefonunuzun depolama izni gerekiyor. Uygulamamızın tam işlevselliğini almak istiyorsanız, uygulamamıza depolama izni vermeniz gerekir. Bu izinle, uygulama, telefonunuzun iletişim sorumlularının (örn. g) içeriğini okuyabilir/değiştirebilir. Ancak, verilerinizi herhangi bir kişisel ya da ticari kullanım için toplamayacağız. </string>
+    <string name="PP_Children_Policy">Alt Öğe İlkesi </string>
+    <string name="Children_policy_Text">Bu uygulama 13 yaşın altındaki kimseye hitap etmiyor. 13 yaş altı çocuklardan bilerek kişisel olarak tanımlanabilen bilgiler toplanmayız. </string>
+    <string name="PP_Other_Permissions">Diğer İzinler </string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>Kişiler Okuma/Yazma </b>
+-Kişilerin yedeklemesini ve geri yüklenmesini yaratmak için
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">Bilgi Toplama ve Kullanma </string>
+    <string name="PP_Information_Collection_Text">Herhangi bir gereksiz veri alamayacak veya kimseyle paylaşamayacağımız. İstediğimiz bilgiler aygıtınızda tutulur ve herhangi bir şekilde bizim tarafından toplanmaz. Uygulama, Google gibi sizi tanımlamak için kullanılan bilgileri toplayabilecek üçüncü kişi hizmetlerini kullanır. </string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">Whistle Phone Finder etkinleştirildi! </string>
+    <string name="ok">Tamam. </string>
+    <string name="loading">Yükleniyor </string>
+    <string name="loadingAd">Ekleme Yükleniyor </string>
+    <string name="confirm_exit">Çıkışı Onayla! </string>
+    <string name="are_you_sure_you_want_to_exit">Çıkmak istediğinizden emin misiniz? </string>
+    <string name="yes">Evet </string>
+    <string name="no">Hayır </string>
+    <string name="exit">Çıkış </string>
+    <string name="weNeedSomeAccess">Biraz erişime ihtiyacımız var. </string>
+    <string name="enableTheAppAccess">Daha iyi işlevler için izinleri etkinleştirin. </string>
+    <string name="selectYourNativeLanguage">Dilinizi Seçin </string>
+    <string name="searchLanguage">Dil Seçin </string>
+    <string name="vibration">Titreşim </string>
+    <string name="heartbeat_type">Sinyal Tipi </string>
+    <string name="according_to_ringtone">Ringtone \'a göre </string>
+    <string name="continuous">Sürekli </string>
+    <string name="language">Dil </string>
+    <string name="whistle_sensitivity">Düdük Hassasiyeti </string>
+    <string name="smart_mode">Akıllı Kip </string>
+    <string name="themes">Temalar </string>
+    <string name="ringtone">Zil sesi </string>
+    <string name="length_seconds">Birim Uzunluğu </string>
+    <string name="custom_1">Özel 1 </string>
+    <string name="custom_2">Özel 2 </string>
+    <string name="custom_3">Özel 3 </string>
+    <string name="select_from_phone">Telefondan Seç </string>
+    <string name="volume">Birim </string>
+    <string name="rate_your_opinion">Görüşünüzü Derecelendirin </string>
+    <string name="help_us_to_improve_on_play_store">Play store \'da gelişme göstermemize yardım et. </string>
+    <string name="flashlight">El feneri </string>
+    <string name="blinking">Yanıp söner </string>
+    <string name="feedback">Geri bildirim! </string>
+    <string name="describe_your_experience_here">Deneyiminizi burada tanımlayın. </string>
+    <string name="cancel">İptal </string>
+    <string name="submit">Gönder </string>
+    <string name="remove_ads">Reklamları Kaldır </string>
+    <string name="settings">Ayarlar </string>
+    <string name="rate_app">Ücret Uygulaması </string>
+    <string name="share_app">Uygulamayı Paylaş </string>
+    <string name="more_app">Daha Fazla Uygulama </string>
+    <string name="privacy_policy">Gizlilik ilkesi </string>
+    <string name="whistle">Düdük </string>
+    <string name="phone_finder">Telefon Bulucu </string>
+    <string name="get_started">Başlarken </string>
+    <string name="media_recorder">Ortam Kaydedicisi </string>
+    <string name="grant_permission_to_record_audio">Sesi kaydetmek için izin verin. </string>
+    <string name="allow">İzin Ver </string>
+    <string name="notification_access">Bildirim Erişimi </string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">Uygulamadan size bildirim göndermek için izin verin. </string>
+    <string name="flashlight_on_off_when_ringing">Çaldığında fener açık/kapalı </string>
+    <string name="vibration_on_off_when_ringing">Çaldığında titreşim açık/kapalı </string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">telefon ekranı uyanıkken düdük tanıma kapatılıyor. </string>
+    <string name="dark_mode">Koyu Kip </string>
+    <string name="user_canceled">İptal Edildi </string>
+    <string name="purchase_failed">Satınalma başarısız oldu </string>
+    <string name="purchasedSuccessfully">Başarıyla Satın Alındı. </string>
+    <string name="bought">Satın alındı </string>
+    <string name="buyFor">Satın al </string>
+    <string name="accept">Kabul etmek</string>
+
+    <string name="use_this_app_without_seeing_any_advertisement">Bu uygulamayı herhangi bir reklam görmeden kullanın</string>
+    <string name="all_premium_items">Tüm PREMIUM ÖĞELER</string>
+    <string name="buy_for_rs_480_00">RS 480,00 karşılığında SATIN ALIN</string>
+    <string name="no_more_ads">Artık reklam yok</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">Hızlı bir video reklamla akıllı moda geçin.</string>
+    <string name="skip_ad">Reklamı geç</string>
+    <string name="video_starting_in">Video başlangıç tarihi:</string>
+    <string name="on">Açık</string>
+    <string name="off">kapalı</string>
+
+
+</resources>

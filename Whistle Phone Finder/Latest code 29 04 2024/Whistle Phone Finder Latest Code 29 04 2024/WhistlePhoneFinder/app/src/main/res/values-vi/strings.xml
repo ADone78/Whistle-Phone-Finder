@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Còi điện thoại huýt sáo </string>
+    <string name="thanksForRatingUs"> Cảm Ơn Vì Đã Xếp Hạng Chúng Tôi </string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">Anh nghĩ gì về ứng dụng của chúng tôi? </string>
+    <string name="PP_Introduction">Giới thiệu </string>
+    <string name="Introduction_text">Nếu bạn chọn sử dụng ứng dụng của chúng tôi, thì bạn đồng ý với việc thu thập và sử dụng thông tin liên quan với chính sách này. Thông tin cá nhân mà chúng tôi thu thập được dùng để cung cấp và cải thiện chức năng. Chúng tôi sẽ không sử dụng hoặc chia sẻ thông tin của bạn với bất kỳ ai ngoại trư ̀ như được mô tả trong Chính sách </string>
+    <string name="PP_Storage_Permissoin">Quyền nhơ ́ </string>
+    <string name="PP_Storage_Permission_Text">Chúng tôi yêu cầu khả năng lưu trư ̃ điện thoại của bạn để hoàn tất các thao tác lõi của ứng dụng. Nếu bạn muốn có chức năng đầy đủ của ứng dụng, bạn phải cấp quyền lưu trư ̃ cho ứng dụng của chúng tôi. Với sự cho phép này, ứng dụng có thể đọc/sửa đổi nội dung của điện thoại e.g Contacts của bạn. Tuy nhiên, chúng tôi sẽ không thu thập dư ̃ liệu của bạn để sử dụng cá nhân hoặc thương mại. </string>
+    <string name="PP_Children_Policy">Chính sách con </string>
+    <string name="Children_policy_Text">Ứng dụng này không giải quyết bất cứ ai dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin nhận dạng cá nhân từ trẻ em dưới 13 tuổi. </string>
+    <string name="PP_Other_Permissions">Quyền khác </string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>Liên lạc đọc/ghi </b>
+-Để tạo ra sao lưu và khôi phục liên lạc
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">Bộ sưu tập thông tin và </string>
+    <string name="PP_Information_Collection_Text">Chúng tôi sẽ không lấy được bất kỳ dư ̃ liệu nào không cần thiết. Thông tin mà chúng tôi yêu cầu được giư ̃ lại trên thiết bị của bạn và không được chúng tôi thu thập theo bất kỳ cách nào. Ứng dụng sẽ sử dụng dịch vụ bên thư ́ ba có thể thu thập thông tin dùng để nhận dạng bạn ví dụ như Google. </string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">Chiếc còi điện thoại đã được kích hoạt! </string>
+    <string name="ok">Được. </string>
+    <string name="loading">Đang tải </string>
+    <string name="loadingAd">Đang tải thêm </string>
+    <string name="confirm_exit">Xác Nhận Lối Ra! </string>
+    <string name="are_you_sure_you_want_to_exit">Bạn có chắc là muốn thoát không? </string>
+    <string name="yes">Vâng. </string>
+    <string name="no">Không. </string>
+    <string name="exit">Thoát </string>
+    <string name="weNeedSomeAccess">Chúng tôi cần truy cập </string>
+    <string name="enableTheAppAccess">Bật quyền để có chức năng tốt hơn. </string>
+    <string name="selectYourNativeLanguage">Chọn Ngôn Ngư ̃ </string>
+    <string name="searchLanguage">Chọn Ngôn ngữ </string>
+    <string name="vibration">Rung động </string>
+    <string name="heartbeat_type">Kiểu nhịp tim </string>
+    <string name="according_to_ringtone">Theo Ringtone </string>
+    <string name="continuous">Liên tục </string>
+    <string name="language">Ngôn ngữ </string>
+    <string name="whistle_sensitivity">Độ nhạy cảm xúc </string>
+    <string name="smart_mode">Chế độ Thông </string>
+    <string name="themes">Sắc thái </string>
+    <string name="ringtone">Nhạc chuông </string>
+    <string name="length_seconds">Ðộ dài </string>
+    <string name="custom_1">Tự chọn 1 </string>
+    <string name="custom_2">Tự chọn 2 </string>
+    <string name="custom_3">Tự chọn 3 </string>
+    <string name="select_from_phone">Chọn Từ Điện Thoại </string>
+    <string name="volume">Âm thanh </string>
+    <string name="rate_your_opinion">Đánh giá ý kiến của bạn </string>
+    <string name="help_us_to_improve_on_play_store">Giúp chúng tôi cải thiện cửa hàng. </string>
+    <string name="flashlight">Đèn pin </string>
+    <string name="blinking">Nhấp nháy </string>
+    <string name="feedback">Phản hồi! </string>
+    <string name="describe_your_experience_here">Mô tả trải nghiệm ở đây. </string>
+    <string name="cancel">Hủy </string>
+    <string name="submit">Gửi </string>
+    <string name="remove_ads">Loại bỏ Quảng cáo </string>
+    <string name="settings">Thiết lập </string>
+    <string name="rate_app">Ứng dụng Tỷ </string>
+    <string name="share_app">Chia sẻ Ứng </string>
+    <string name="more_app">Thêm ứng dụng </string>
+    <string name="privacy_policy">Chính sách về </string>
+    <string name="whistle">Huýt sáo </string>
+    <string name="phone_finder">Trình tìm kiếm điện thoại </string>
+    <string name="get_started">Bắt đầu </string>
+    <string name="media_recorder">Bộ ghi phương tiện </string>
+    <string name="grant_permission_to_record_audio">Xin cấp phép ghi âm. </string>
+    <string name="allow">Cho phép </string>
+    <string name="notification_access">Truy cập ngày </string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">Cấp quyền gửi cho bạn thông báo tư ̀ ứng dụng. </string>
+    <string name="flashlight_on_off_when_ringing">Đèn pin trên/tắt khi rung </string>
+    <string name="vibration_on_off_when_ringing">Rung động/tắt khi rung </string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">Nhận dạng tiếng huýt sáo bị tắt khi màn hình điện thoại đang thức </string>
+    <string name="dark_mode">Chế độ tối </string>
+    <string name="user_canceled">Ðã hủy </string>
+    <string name="purchase_failed">Mua thất bại </string>
+    <string name="purchasedSuccessfully">Đã Mua Thành Công. </string>
+    <string name="bought">Đã mua </string>
+    <string name="buyFor">Mua cho </string>
+    <string name="accept">Chấp nhận</string>
+
+
+    <string name="use_this_app_without_seeing_any_advertisement">Sử dụng ứng dụng này mà không thấy bất kỳ quảng cáo nào</string>
+    <string name="all_premium_items">Tất cả các mặt hàng CAO CẤP</string>
+    <string name="buy_for_rs_480_00">MUA Với RS 480.00</string>
+    <string name="no_more_ads">Không còn quảng cáo</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">Chuyển sang chế độ thông minh với quảng cáo video nhanh.</string>
+    <string name="skip_ad">Bỏ qua quảng cáo</string>
+    <string name="video_starting_in">Video bắt đầu trong</string>
+    <string name="on">TRÊN</string>
+    <string name="off">tắt</string>
+
+</resources>

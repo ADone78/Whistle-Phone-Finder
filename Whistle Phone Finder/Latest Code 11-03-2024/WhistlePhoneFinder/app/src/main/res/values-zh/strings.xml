@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">口哨聲電話搜尋器</string>
+    <string name="thanksForRatingUs"> 感謝評比我們</string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">你對我們的應用有什麼看法？</string>
+    <string name="PP_Introduction">引言</string>
+    <string name="Introduction_text">如果您選擇使用我們的應用程式，那麼您同意與此政策相關的資訊的收集與使用。 我們收集的個人資訊用於提供和改進功能。 除了本「隱私權政策」所述，我們不會使用或分享您與任何人的資訊。</string>
+    <string name="PP_Storage_Permissoin">儲存體許可權</string>
+    <string name="PP_Storage_Permission_Text">我們需要您的手機儲存許可，才能完成 app的核心操作。 如果您想要取得我們應用程式的完整功能，您必須授與儲存體許可權給我們的應用程式。 使用此許可權，應用程式可以讀取/ 修改電話的內容。「聯絡人」。 不過，我們不會收集閣下的資料作任何個人或商業用途。</string>
+    <string name="PP_Children_Policy">子女政策</string>
+    <string name="Children_policy_Text">這一申請不涉及 13歲以下的任何人。 我們不故意收集 13歲以下兒童的個人識別資訊。</string>
+    <string name="PP_Other_Permissions">其他許可權</string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>聯絡人讀取/寫入</b>
+- 建立聯絡人的備份及還原
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">資訊收集與使用</string>
+    <string name="PP_Information_Collection_Text">我們不會取得任何不必要的資料，也不會與任何人分享。 我們要求的資訊會保留在您的裝置上，且不會被我們以任何方式收集。 應用程式會使用協力廠商服務，這些服務可能會收集用來識別您的資訊，例如 Google。</string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">吹口哨電話搜尋器已啟用！</string>
+    <string name="ok">好</string>
+    <string name="loading">正在載入</string>
+    <string name="loadingAd">正在載入新增</string>
+    <string name="confirm_exit">確認結束！</string>
+    <string name="are_you_sure_you_want_to_exit">您確定要結束嗎？</string>
+    <string name="yes">是的</string>
+    <string name="no">沒有</string>
+    <string name="exit">出口</string>
+    <string name="weNeedSomeAccess">我們需要一些</string>
+    <string name="enableTheAppAccess">啟用許可權以取得更好的功能。 </string>
+    <string name="selectYourNativeLanguage">選取您的語言</string>
+    <string name="searchLanguage">選取語言</string>
+    <string name="vibration">振動</string>
+    <string name="heartbeat_type">活動訊號類型</string>
+    <string name="according_to_ringtone">根據 Ringtone</string>
+    <string name="continuous">連續</string>
+    <string name="language">語言</string>
+    <string name="whistle_sensitivity">口哨聲</string>
+    <string name="smart_mode">智慧型模式</string>
+    <string name="themes">泰邁什</string>
+    <string name="ringtone">林託內</string>
+    <string name="length_seconds">磁區長度</string>
+    <string name="custom_1">自訂 1</string>
+    <string name="custom_2">自訂 2</string>
+    <string name="custom_3">自訂 3</string>
+    <string name="select_from_phone">選取來源電話</string>
+    <string name="volume">卷</string>
+    <string name="rate_your_opinion">率您的意見</string>
+    <string name="help_us_to_improve_on_play_store">幫助我們在遊戲商店改善。</string>
+    <string name="flashlight">手電筒</string>
+    <string name="blinking">Blink鍵合</string>
+    <string name="feedback">反饋！</string>
+    <string name="describe_your_experience_here">描述一下您在這裡的經歷。</string>
+    <string name="cancel">取消</string>
+    <string name="submit">提交</string>
+    <string name="remove_ads">移除廣告</string>
+    <string name="settings">設定</string>
+    <string name="rate_app">費率應用程式</string>
+    <string name="share_app">共用應用程式</string>
+    <string name="more_app">其他應用程式</string>
+    <string name="privacy_policy">隱私權政策</string>
+    <string name="whistle">哨聲</string>
+    <string name="phone_finder">電話搜尋器</string>
+    <string name="get_started">開始使用</string>
+    <string name="media_recorder">媒體記錄器</string>
+    <string name="grant_permission_to_record_audio">授與記錄音訊的許可權。</string>
+    <string name="allow">容許</string>
+    <string name="notification_access">通知存取</string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">授與您從應用程式傳送通知的許可權。</string>
+    <string name="flashlight_on_off_when_ringing">閃光燈開啟/關閉時開啟 / 關閉</string>
+    <string name="vibration_on_off_when_ringing">鈴聲時振動開啟/關閉</string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">電話屏醒了，口哨聲被關了</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="user_canceled">已取消</string>
+    <string name="purchase_failed">購買失敗</string>
+    <string name="purchasedSuccessfully">已順利購買。</string>
+    <string name="bought">博得</string>
+    <string name="buyFor">購買</string>
+    <string name="accept">接受</string>
+
+    <string name="use_this_app_without_seeing_any_advertisement">使用此應用程式不會看到任何廣告</string>
+    <string name="all_premium_items">所有優質商品</string>
+    <string name="buy_for_rs_480_00">購買價格為 480.00 盧比</string>
+    <string name="no_more_ads">沒有更多廣告</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">透過快速影片廣告切換到智慧模式.</string>
+    <string name="skip_ad">跳過廣告</string>
+    <string name="video_starting_in">影片開始於</string>
+    <string name="on">在</string>
+    <string name="off">離開</string>
+</resources>

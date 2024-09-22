@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/rounded_corner_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_TitleD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="@string/rate_your_opinion"
+            android:textColor="@color/main"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:padding="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="sans-serif"
+            android:text="@string/help_us_to_improve_on_play_store"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="@dimen/_8ssp"
+                android:padding="@dimen/_6sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:orientation="horizontal">
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/btn_cancelRating"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_90sdp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:padding="@dimen/_15sdp"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/sad"/>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/btn_done"
+                        android:layout_width="@dimen/_125sdp"
+                        android:layout_height="@dimen/_90sdp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:padding="@dimen/_15sdp"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"
+                        app:lottie_rawRes="@raw/smile"/>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>

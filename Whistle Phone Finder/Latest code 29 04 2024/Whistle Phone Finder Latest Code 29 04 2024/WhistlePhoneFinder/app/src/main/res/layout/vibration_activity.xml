@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_490sdp"
+        android:background="@color/main">
+
+
+        <LinearLayout
+            android:id="@+id/la1"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.1"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/shapes"
+            android:gravity="center|bottom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vibration"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay2"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="0dp"
+            android:background="@drawable/background_item"
+            app:layout_constraintHeight_percent="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/lay3"
+            app:layout_constraintTop_toBottomOf="@id/la1">
+
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/vibration_icon"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vibration"
+                android:textColor="@color/text_color"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/_18ssp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:layout_margin="@dimen/_6sdp">
+
+                <ToggleButton
+                    android:id="@+id/vibration_toggle"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="@dimen/_37sdp"
+                    android:background="@drawable/switch_state"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp"
+                    android:textOff="@string/off"
+                    android:textOn="@string/on"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/_15sdp" />
+            </LinearLayout>
+
+
+
+            <RadioButton
+                android:id="@+id/vibrastionRb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/heartbeat_type"
+                android:layout_margin="@dimen/_5sdp"
+                android:textColor="@color/text_color"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:paddingLeft="@dimen/_20sdp"
+                android:textSize="@dimen/_12ssp"/>
+            <RadioButton
+                android:id="@+id/vibrastionRb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/according_to_ringtone"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:textColor="@color/text_color"
+                android:gravity="start|center"
+                android:paddingLeft="@dimen/_20sdp"
+                android:textSize="@dimen/_12ssp"/>
+            <RadioButton
+                android:id="@+id/vibrastionRb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/continuous"
+                android:textColor="@color/text_color"
+                android:layout_margin="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:paddingLeft="@dimen/_20sdp"
+                android:textSize="@dimen/_12ssp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="@dimen/_18sdp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <Button
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/dismissbtn"
+                android:textSize="@dimen/_12ssp"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/cancel"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_490sdp"
+        android:background="@color/main">
+
+
+        <LinearLayout
+            android:id="@+id/la1"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.1"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/shapes"
+            android:gravity="center|bottom"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/settings"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_19ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay2"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="0dp"
+            android:background="@drawable/background_item"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@id/lay3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.61"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/la1">
+
+            <ImageView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:src="@drawable/setting_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/text_color"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:gravity="center"
+                android:text="@string/settings"
+                android:textSize="@dimen/_18ssp" />
+
+            <!--<com.zires.switchsegmentedcontrol.ZiresSwitchSegmentedControl
+                android:id="@+id/zires_switch"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_60sdp"
+                app:activeBgColor="#B4C68B"
+                android:layout_marginTop="@dimen/_3sdp"
+                app:activeTextColor="@android:color/white"
+                app:backgroundColor="@android:color/white"
+                app:borderColor="#707070"
+                android:layout_gravity="center"
+                android:gravity="center"
+                app:inactiveTextColor="@android:color/darker_gray"
+                app:cornerRadius="40dp"
+                app:strokeWidth="8dp"
+                app:textSize="@dimen/_5ssp"
+                app:textToggleLeft="OFF"
+                app:textToggleRight="ON" />-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                app:cardBackgroundColor="@color/cardbgColor"
+                app:cardElevation="0dp">
+
+                <TextView
+                    android:id="@+id/language"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/text_color"
+                    android:background="?selectableItemBackground"
+                    android:drawableEnd="@drawable/settings_arrow"
+                    android:drawablePadding="16dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/language"
+                    android:textSize="14sp" />
+            </androidx.cardview.widget.CardView>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/setas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="start"
+                    android:paddingStart="12dp"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/_12ssp"
+                    android:paddingHorizontal="@dimen/_14sdp"
+                    android:text="@string/whistle_sensitivity" />
+
+                <SeekBar
+                    android:id="@+id/seekbar"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="25dp"
+                    android:max="100"
+                    android:progressDrawable="@drawable/progress_drawable1"
+                    android:layout_gravity="center"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="5dp"
+                    android:progress="3"
+                    android:progressTint="#FF6265"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/whistle_thumb" />
+
+            </LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="18dp"
+                android:paddingEnd="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:textColor="@color/text_color"
+                    android:text="@string/smart_mode"
+                    android:gravity="center|start"/>
+
+                <Switch
+                    android:id="@+id/switchsetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:theme="@style/SwitchThemeOverlay"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="18dp"
+                android:paddingEnd="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:text="@string/dark_mode"
+                    android:textColor="@color/text_color"
+                    android:gravity="center|start"/>
+
+                <Switch
+                    android:id="@+id/switchDarkmode"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:theme="@style/SwitchThemeOverlay"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:gravity="center"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_18sdp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:id="@+id/dismissSetting"
+                android:textSize="@dimen/_12ssp"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/cancel"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

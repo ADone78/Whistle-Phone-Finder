@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/mainbg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/privacy" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:paddingBottom="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/text_color"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/privacy_policy"
+            android:textSize="@dimen/_16sdp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:paddingHorizontal="@dimen/_10sdp"
+            app:layout_constraintBottom_toTopOf="@+id/imgSearch"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/PP_Introduction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:inputType="textMultiLine"
+                    android:text="@string/PP_Introduction"
+                    android:textColor="#005ab5"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/Introduction_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_color"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:inputType="textMultiLine"
+                    android:text="@string/Introduction_text"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/PP_Information_Collection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+
+                    android:inputType="textMultiLine"
+                    android:text="@string/PP_Information_Collection"
+                    android:textColor="#005ab5"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/PP_Information_Collection_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:textColor="@color/text_color"
+                    android:inputType="textMultiLine"
+                    android:text="@string/PP_Information_Collection_Text"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/PP_Children_Policy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:inputType="textMultiLine"
+                    android:text="@string/PP_Children_Policy"
+                    android:textColor="#005ab5"
+                    android:textStyle="bold"
+                    app:fontFamily="sans-serif" />
+
+                <TextView
+                    android:id="@+id/Children_policy_Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:textColor="@color/text_color"
+                    android:inputType="textMultiLine"
+                    android:text="@string/Children_policy_Text" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!--<androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_privcy"
+            android:text="accept"
+            android:textSize="@dimen/_13sdp"/>-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:elevation="@dimen/_10sdp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/privacy_gradient"
+            android:paddingLeft="@dimen/_30sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingRight="@dimen/_30sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:text="@string/accept"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            app:cornerRadius="@dimen/_10sdp"
+            app:fontFamily="sans-serif" />
+
+    </LinearLayout>
+
+</LinearLayout>

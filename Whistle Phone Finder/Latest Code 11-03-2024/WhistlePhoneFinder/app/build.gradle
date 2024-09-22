@@ -1,0 +1,119 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.whistle.phonefinder.tool'
+    compileSdk 34
+
+    buildFeatures{
+        viewBinding true
+       // def enableProguardInReleaseBuilds = false
+
+    }
+
+    defaultConfig {
+        applicationId "com.whistle.phonefinder.tool"
+        minSdk 24
+        targetSdk 34
+        versionCode 5
+        versionName "1.4"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles
+            proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
+            )
+            signingConfig = signingConfigs.getByName("debug")
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    bundle {
+        language {
+            // Specifies that the app bundle should not support
+            // configuration APKs for language resources. These
+            // resources are instead packaged with each base and
+            // dynamic feature APK.
+            enableSplit = false
+        }
+    }
+}
+
+dependencies {
+
+   // android { def enableProguardInReleaseBuilds = false .... }
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.25'
+    implementation 'com.github.classiczires:Android-Switch-Segmented-Control:1.0.5'
+    implementation 'io.github.ShawnLin013:number-picker:2.4.13'
+
+    implementation 'com.google.android.gms:play-services-ads-lite:22.6.0'
+    testImplementation 'junit:junit:4.13.2'
+    implementation "com.airbnb.android:lottie:3.4.0"
+    implementation 'com.intuit.ssp:ssp-android:1.0.5'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    
+
+    implementation("androidx.core:core-ktx:1.12.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("org.tensorflow:tensorflow-lite:2.14.0")
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    implementation("org.tensorflow:tensorflow-lite:2.14.0")
+    implementation("org.tensorflow:tensorflow-lite-gpu:2.4.0")
+    implementation("org.tensorflow:tensorflow-lite-support:0.2.0")
+    implementation("com.google.code.gson:gson:2.10.1")
+
+    // Koin for Kotlin
+   def koin_version = "2.1.5"
+    implementation("org.koin:koin-core:$koin_version")
+    // Koin for Android
+    implementation("org.koin:koin-android:$koin_version")
+    // Koin Android Scope features
+    implementation("org.koin:koin-android-scope:$koin_version")
+    // Koin Android ViewModel features
+    implementation("org.koin:koin-android-viewmodel:$koin_version")
+
+    // TF-Lite
+    implementation("org.tensorflow:tensorflow-lite:2.14.0")
+
+    // TF-Lite Support for text labels to arraylist
+    implementation("org.tensorflow:tensorflow-lite-support:0.2.0")
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0"
+
+   
+    implementation 'androidx.lifecycle:lifecycle-process:2.7.0'
+    implementation 'com.android.billingclient:billing:6.1.0'
+
+
+    // MainAPP Activity lifecycles
+    def lifecycle_version = '2.3.1'
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-process:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    implementation ("androidx.core:core-splashscreen:1.0.0")
+
+
+}

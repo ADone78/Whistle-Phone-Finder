@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wyszukiwarka telefonicznej gwizdy </string>
+    <string name="thanksForRatingUs"> Dziękujemy Za Ocenę </string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">Co myślisz o naszej aplikacji? </string>
+    <string name="PP_Introduction">Wprowadzenie </string>
+    <string name="Introduction_text">Jeśli zdecydowałeś się na korzystanie z naszej aplikacji, to zgadzasz się na gromadzenie i wykorzystywanie informacji w związku z tą polityką. Dane osobowe, które gromadzimy, są wykorzystywane do udostępniania i doskonalenia funkcjonalności. Nie będziemy używać ani udostępniać Twoich danych nikomu z wyjątkiem opisanych w niniejszej Polityce Prywatności. </string>
+    <string name="PP_Storage_Permissoin">Uprawnienie do pamięci </string>
+    <string name="PP_Storage_Permission_Text">Wymagamy dostępu do pamięci przez Twój telefon, aby zakończyć podstawowe operacje aplikacji. Jeśli chcesz uzyskać pełną funkcjonalność naszej aplikacji, musisz nadać uprawnienia do pamięci naszej aplikacji. Za tym uprawnieniem aplikacja może czytać/modyfikować zawartość Twojego telefonu e.g Kontakty. Nie będziemy jednak zbierać Twoich danych do żadnego użytku osobistego czy komercyjnego. </string>
+    <string name="PP_Children_Policy">Strategia dla dzieci </string>
+    <string name="Children_policy_Text">Aplikacja ta nie dotyczy nikogo w wieku poniżej 13 lat. Nie zbieramy świadomie informacji umożliwiających identyfikację osób z dzieci poniżej 13. roku życia. </string>
+    <string name="PP_Other_Permissions">Inne uprawnienia </string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>Odczyt/zapis kontaktów </b>
+-tworzenie kopii zapasowych i odtwarzanie kontaktów
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">Gromadzenie i wykorzystanie informacji </string>
+    <string name="PP_Information_Collection_Text">Nie dostaniemy żadnych zbędnych danych lub podzielimy się z nikim innym. Informacje, których zażądaliśmy, są przechowywane na Twoim urządzeniu i nie są zbierane przez nas w żaden sposób. Aplikacja korzysta z usług osób trzecich, które mogą gromadzić informacje wykorzystywane do identyfikacji użytkownika np. Google. </string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">Wyszukiwarka telefonów z gwizdkiem zostały włączone! </string>
+    <string name="ok">OK </string>
+    <string name="loading">Ładowanie </string>
+    <string name="loadingAd">Ładowanie dodawania </string>
+    <string name="confirm_exit">Potwierdź wyjście! </string>
+    <string name="are_you_sure_you_want_to_exit">Czy na pewno chcesz wyjść? </string>
+    <string name="yes">Tak </string>
+    <string name="no">Nie </string>
+    <string name="exit">Wyjdź </string>
+    <string name="weNeedSomeAccess">Potrzebujemy jakiegoś dostępu </string>
+    <string name="enableTheAppAccess">Włącz uprawnienia dla lepszej funkcjonalności. </string>
+    <string name="selectYourNativeLanguage">Wybierz język </string>
+    <string name="searchLanguage">Wybierz język </string>
+    <string name="vibration">Drgania </string>
+    <string name="heartbeat_type">Typ pulsu </string>
+    <string name="according_to_ringtone">Zgodnie z Ringtone </string>
+    <string name="continuous">Ciągły </string>
+    <string name="language">Język </string>
+    <string name="whistle_sensitivity">Czułość gwizdka </string>
+    <string name="smart_mode">Tryb inteligentny </string>
+    <string name="themes">Kompozycje </string>
+    <string name="ringtone">Dzwonek </string>
+    <string name="length_seconds">Długość woluminu </string>
+    <string name="custom_1">Niestandardowe 1 </string>
+    <string name="custom_2">Niestandardowe 2 </string>
+    <string name="custom_3">Niestandardowe 3 </string>
+    <string name="select_from_phone">Wybierz z telefonu </string>
+    <string name="volume">Wolumin </string>
+    <string name="rate_your_opinion">Oceń swoją opinię </string>
+    <string name="help_us_to_improve_on_play_store">Pomóż nam poprawić w sklepie play. </string>
+    <string name="flashlight">Latarka </string>
+    <string name="blinking">Miganie </string>
+    <string name="feedback">Opinie! </string>
+    <string name="describe_your_experience_here">Opisz swoje doświadczenie tutaj. </string>
+    <string name="cancel">Anuluj </string>
+    <string name="submit">Wyślij </string>
+    <string name="remove_ads">Usuń reklamy </string>
+    <string name="settings">Ustawienia </string>
+    <string name="rate_app">Oceń aplikację </string>
+    <string name="share_app">Współużytkuj aplikację </string>
+    <string name="more_app">Więcej aplikacji </string>
+    <string name="privacy_policy">Polityka prywatności </string>
+    <string name="whistle">Gwizdek </string>
+    <string name="phone_finder">Wyszukiwarka telefonów </string>
+    <string name="get_started">Zaczynaj </string>
+    <string name="media_recorder">Rejestrator nośników </string>
+    <string name="grant_permission_to_record_audio">Nadaj uprawnienie do rejestrowania dźwięku. </string>
+    <string name="allow">Zezwalaj </string>
+    <string name="notification_access">Dostęp do powiadomień </string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">Nadaj uprawnienie do wysyłania powiadomienia z aplikacji. </string>
+    <string name="flashlight_on_off_when_ringing">Flashlight on/off podczas dzwoniących </string>
+    <string name="vibration_on_off_when_ringing">Drgania na/off podczas dzwoniących </string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">Rozpoznawanie whistle jest wyłączone, gdy ekran telefonu jest obudzić </string>
+    <string name="dark_mode">Ciemny tryb </string>
+    <string name="user_canceled">Anulowane </string>
+    <string name="purchase_failed">Niepowodzenie zakupu </string>
+    <string name="purchasedSuccessfully">Zakupiono Pomyślnie. </string>
+    <string name="bought">Kupione </string>
+    <string name="buyFor">Kup dla </string>
+    <string name="accept">Zaakceptować</string>
+
+    <string name="use_this_app_without_seeing_any_advertisement">Korzystaj z tej aplikacji, nie widząc żadnych reklam</string>
+    <string name="all_premium_items">Wszystkie przedmioty PREMIUM</string>
+    <string name="buy_for_rs_480_00">KUP za 480,00 RS</string>
+    <string name="no_more_ads">Żadnych więcej reklam</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">Przejdź do trybu inteligentnego za pomocą szybkiej reklamy wideo.</string>
+    <string name="skip_ad">Pomiń reklamę</string>
+    <string name="video_starting_in">Wideo rozpoczynające się w</string>
+    <string name="on">NA</string>
+    <string name="off">od</string>
+</resources>

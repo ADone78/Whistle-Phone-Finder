@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whistle Phone Finder </string>
+    <string name="thanksForRatingUs"> Takk for vurdering oss </string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">Hva tenker du om appen vår? </string>
+    <string name="PP_Introduction">Innføring </string>
+    <string name="Introduction_text">Hvis du velger å bruke vår søknad, så er du enig i samlingen og bruk av informasjon i forhold til denne politikken. Den personlige informasjonen vi samler inn, brukes til å gi og forbedre funksjonaliteten. Vi vil ikke bruke eller dele informasjonen din med noen, bortsett fra som beskrevet i denne personvernpolicy. </string>
+    <string name="PP_Storage_Permissoin">Lagertillatelse </string>
+    <string name="PP_Storage_Permission_Text">Vi krever lagertillatelse av telefonen din for å fullføre kjernedriften av appen. Hvis du ønsker å få full funksjonalitet i appen vår, må du gi lagringstillatelse til vår app. Med denne tillatelsen kan appen lese / endre innholdet i telefonen din e.g Kontakter. Vi vil imidlertid ikke samle inn dataene dine for enhver personlig eller kommersiell bruk. </string>
+    <string name="PP_Children_Policy">Policy for barn </string>
+    <string name="Children_policy_Text">Denne søknaden skal ikke adresså noen under den 13. Vi bevisst ikke samler inn personlig identifiserbare informasjon fra barn under 13. </string>
+    <string name="PP_Other_Permissions">Andre tillatelser </string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>Kontaktpersoner Les / Skriv </b>
+-Å lage backup og restaurering av kontakter
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">Informasjonssamling og bruk </string>
+    <string name="PP_Information_Collection_Text">Vi vil ikke få noen unødvendige data eller dele med noen. Informasjonen vi ba om, oppbevares på enheten din og er ikke samlet inn av oss på noen måte. Appen bruker tredjepartstjenester som kan samle inn informasjon som brukes til å identifisere deg f.eks. Google. </string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">Whistle Phone Finder har blitt aktivert! </string>
+    <string name="ok">OK </string>
+    <string name="loading">Innlasting </string>
+    <string name="loadingAd">Laster inn Add </string>
+    <string name="confirm_exit">Bekreft avslutning! </string>
+    <string name="are_you_sure_you_want_to_exit">Er du sikker på at du vil avslutte? </string>
+    <string name="yes">Ja </string>
+    <string name="no">Nei </string>
+    <string name="exit">Avslutt </string>
+    <string name="weNeedSomeAccess">Vi trenger tilgang </string>
+    <string name="enableTheAppAccess">Aktiver tillatelser for bedre funksjonalitet. </string>
+    <string name="selectYourNativeLanguage">Velg ditt språk </string>
+    <string name="searchLanguage">Velg språk </string>
+    <string name="vibration">Vibrasjon </string>
+    <string name="heartbeat_type">Hjerteslagstype </string>
+    <string name="according_to_ringtone">I henhold til Ringtone </string>
+    <string name="continuous">Fortløpende </string>
+    <string name="language">Språk </string>
+    <string name="whistle_sensitivity">Plystre Følsomhet </string>
+    <string name="smart_mode">Smart modus </string>
+    <string name="themes">Temaer </string>
+    <string name="ringtone">Ringetone </string>
+    <string name="length_seconds">Lengde på volum </string>
+    <string name="custom_1">Tilpasset 1 </string>
+    <string name="custom_2">Tilpasset 2 </string>
+    <string name="custom_3">Tilpasset 3 </string>
+    <string name="select_from_phone">Velg Fra telefon </string>
+    <string name="volume">Volum </string>
+    <string name="rate_your_opinion">Vurder dine Opinion </string>
+    <string name="help_us_to_improve_on_play_store">Hjelp oss til å forbedre oss på lekebutikk. </string>
+    <string name="flashlight">Lommelykt </string>
+    <string name="blinking">Blinker </string>
+    <string name="feedback">Tilbakemelding! </string>
+    <string name="describe_your_experience_here">Beskriv din erfaring her. </string>
+    <string name="cancel">Annuller </string>
+    <string name="submit">Send </string>
+    <string name="remove_ads">Fjern Ads </string>
+    <string name="settings">Innstillinger </string>
+    <string name="rate_app">Vurder app </string>
+    <string name="share_app">Del app </string>
+    <string name="more_app">Mer app </string>
+    <string name="privacy_policy">Personvernpolicy </string>
+    <string name="whistle">Plystre </string>
+    <string name="phone_finder">Telefon Finder </string>
+    <string name="get_started">Kom i gang </string>
+    <string name="media_recorder">Medieoppbestilling </string>
+    <string name="grant_permission_to_record_audio">Gi tillatelse til rekordlyd. </string>
+    <string name="allow">Tillat </string>
+    <string name="notification_access">Tilgang til varsel </string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">Gi tillatelse til å sende deg varsel fra appen. </string>
+    <string name="flashlight_on_off_when_ringing">Lommelykt på / av når du ringer </string>
+    <string name="vibration_on_off_when_ringing">Vibrasjon på / av når ringing </string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">Whistle-gjenkjenningen er slått av når telefonskjermen er våken </string>
+    <string name="dark_mode">Mørk modus </string>
+    <string name="user_canceled">Avbrutt </string>
+    <string name="purchase_failed">Innkjøp mislyktes </string>
+    <string name="purchasedSuccessfully">Kjøpt vellykket. </string>
+    <string name="bought">Kjøpt </string>
+    <string name="buyFor">Kjøp for </string>
+    <string name="accept">Aksepterer</string>
+
+    <string name="use_this_app_without_seeing_any_advertisement">Bruk denne appen uten å se noen reklame</string>
+    <string name="all_premium_items">Alle PREMIUMVARER</string>
+    <string name="buy_for_rs_480_00">KJØP for RS 480,00</string>
+    <string name="no_more_ads">Ingen flere annonser</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">Bytt til smartmodus med en rask videoannonse.</string>
+    <string name="skip_ad">Hopp over annonse</string>
+    <string name="video_starting_in">Video starter om</string>
+    <string name="on">på</string>
+    <string name="off">av</string>
+
+
+</resources>

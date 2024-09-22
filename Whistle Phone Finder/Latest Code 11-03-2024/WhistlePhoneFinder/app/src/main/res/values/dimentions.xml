@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left">@dimen/_21sdp</dimen>
+    <dimen name="russianleft">@dimen/_21sdp</dimen>
+    <dimen name="right">@dimen/_17sdp</dimen>
+    <dimen name="russianright">@dimen/_17sdp</dimen>
+    <dimen name="rightsplash">@dimen/_25sdp</dimen>
+    <dimen name="leftsplash">@dimen/_25sdp</dimen>
+    <dimen name="czechSixe">@dimen/_9ssp</dimen>
+    <dimen name="greek">@dimen/_9ssp</dimen>
+    <dimen name="spanish">@dimen/_9ssp</dimen>
+    <dimen name="finish">@dimen/_9ssp</dimen>
+    <dimen name="french">@dimen/_9ssp</dimen>
+    <dimen name="italian">@dimen/_9ssp</dimen>
+    <dimen name="malay">@dimen/_9ssp</dimen>
+    <dimen name="polish">@dimen/_9ssp</dimen>
+    <dimen name="portugese">@dimen/_9ssp</dimen>
+    <dimen name="russian">@dimen/_9ssp</dimen>
+    <dimen name="turkish">@dimen/_9ssp</dimen>
+    <dimen name="hungarian">@dimen/_9ssp</dimen>
+</resources>

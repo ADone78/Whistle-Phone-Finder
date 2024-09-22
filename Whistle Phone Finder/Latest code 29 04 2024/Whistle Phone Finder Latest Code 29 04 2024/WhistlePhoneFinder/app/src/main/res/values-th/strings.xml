@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ตัวค้นหาโทรศัพท์ผิวปาก </string>
+    <string name="thanksForRatingUs"> ขอบคุณสำหรับการให้คะแนนเรา </string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">คุณคิดยังไงกับแอพของเรา? </string>
+    <string name="PP_Introduction">บทนำ </string>
+    <string name="Introduction_text">ถ้าคุณเลือกที่จะใช้แอ็พพลิเคชันของเราคุณจะยอมรับการรวบรวมและใช้ข้อมูลที่สัมพันธ์กับนโยบายนี้ ข้อมูลส่วนบุคคลที่เรารวบรวมจะถูกใช้ในการจัดเตรียมและปรับปรุงฟังก์ชันการทำงาน เราจะไม่ใช้หรือแบ่งใช้ข้อมูลของคุณกับบุคคลใดๆยกเว้นตามที่กล่าวไว้ในนโยบายความเป็นส่วนตัวนี้ </string>
+    <string name="PP_Storage_Permissoin">สิทธิในการจัดเก็บ </string>
+    <string name="PP_Storage_Permission_Text">เราต้องการสิทธิ์หน่วยเก็บข้อมูลสำหรับโทรศัพท์ของคุณเพื่อดำเนินงานหลักของแอ็พให้เสร็จสมบูรณ์ หากคุณต้องการได้รับฟังก์ชันการทำงานทั้งหมดของแอ็พของเราคุณต้องให้สิทธิ์หน่วยเก็บข้อมูลกับแอ็พของเรา ด้วยสิทธินี้แอ็พสามารถอ่าน/แก้ไขเนื้อหาของโทรศัพท์ของคุณเช่นผู้ติดต่อของคุณ อย่างไรก็ตามเราจะไม่รวบรวมข้อมูลของคุณสำหรับการใช้งานส่วนบุคคลหรือเพื่อการค้า </string>
+    <string name="PP_Children_Policy">นโยบายย่อย </string>
+    <string name="Children_policy_Text">แอ็พพลิเคชันนี้ไม่แอดเดรสบุคคลใดๆเมื่ออายุต่ำกว่า 13ปี เราไม่ควรรวบรวมข้อมูลที่สามารถระบุตัวตนส่วนบุคคลจากเด็กอายุต่ำกว่า 13ปี </string>
+    <string name="PP_Other_Permissions">สิทธิอื่นๆ </string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>อ่าน/เขียนผู้ติดต่อ </b>
+-เมื่อต้องการสร้างการสำรองข้อมูลและเรียกคืนผู้ติดต่อ
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">การรวบรวมข้อมูลและการใช้งาน </string>
+    <string name="PP_Information_Collection_Text">เราจะไม่ได้รับข้อมูลที่ไม่จำเป็นหรือแบ่งใช้กับบุคคลใดๆ ข้อมูลที่เราร้องขอจะถูกเก็บไว้บนอุปกรณ์ของคุณและไม่ถูกเก็บรวบรวมโดยเราไม่ว่าด้วยวิธีใด แอ็พจะใช้เซอร์วิสของบริษัทอื่นที่อาจรวบรวมข้อมูลที่ใช้เพื่อระบุถึงคุณเช่น Google </string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">เปิดใช้งานการค้นหาโทรศัพท์นกหวีดแล้ว! </string>
+    <string name="ok">โอเค </string>
+    <string name="loading">กำลังโหลด </string>
+    <string name="loadingAd">กำลังโหลดเพิ่ม </string>
+    <string name="confirm_exit">ยืนยันการออก! </string>
+    <string name="are_you_sure_you_want_to_exit">คุณแน่ใจว่าต้องการออกหรือไม่? </string>
+    <string name="yes">ใช่ </string>
+    <string name="no">ไม่ </string>
+    <string name="exit">ออก </string>
+    <string name="weNeedSomeAccess">เราต้องการการเข้าถึงบางอย่าง </string>
+    <string name="enableTheAppAccess">เปิดใช้งานการอนุญาตสำหรับการทำงานที่ดีขึ้น </string>
+    <string name="selectYourNativeLanguage">เลือกภาษาของคุณ </string>
+    <string name="searchLanguage">เลือกภาษา </string>
+    <string name="vibration">การสั่นสะเทือน </string>
+    <string name="heartbeat_type">ชนิดของสัญญาณ Heart beat </string>
+    <string name="according_to_ringtone">จากเสียงริงโทน </string>
+    <string name="continuous">ต่อเนื่อง </string>
+    <string name="language">ภาษา </string>
+    <string name="whistle_sensitivity">การไวต่อระดับความลับ </string>
+    <string name="smart_mode">โหมดสมาร์ท </string>
+    <string name="themes">ธีม </string>
+    <string name="ringtone">ริงโทน </string>
+    <string name="length_seconds">ความยาววอลุ่ม </string>
+    <string name="custom_1">กำหนดเอง 1 </string>
+    <string name="custom_2">กำหนดเอง 2 </string>
+    <string name="custom_3">กำหนดเอง 3 </string>
+    <string name="select_from_phone">เลือกจากโทรศัพท์ </string>
+    <string name="volume">วอลุ่ม </string>
+    <string name="rate_your_opinion">ให้คะแนนความคิดเห็นของคุณ </string>
+    <string name="help_us_to_improve_on_play_store">ช่วยให้เราปรับปรุงร้านเล่นหน่อย </string>
+    <string name="flashlight">ไฟฉาย </string>
+    <string name="blinking">กระพริบ </string>
+    <string name="feedback">ผลตอบรับ! </string>
+    <string name="describe_your_experience_here">อธิบายถึงประสบการณ์ของคุณที่นี่ </string>
+    <string name="cancel">ยกเลิก </string>
+    <string name="submit">ส่ง </string>
+    <string name="remove_ads">ลบการโฆษณา </string>
+    <string name="settings">การตั้งค่า </string>
+    <string name="rate_app">อัตราแอ็พ </string>
+    <string name="share_app">แบ่งใช้แอ็พ </string>
+    <string name="more_app">App เพิ่มเติม </string>
+    <string name="privacy_policy">นโยบายความเป็นส่วนตัว </string>
+    <string name="whistle">เป่านกหวีด </string>
+    <string name="phone_finder">โปรแกรมค้นหาโทรศัพท์ </string>
+    <string name="get_started">เริ่มต้นใช้งาน </string>
+    <string name="media_recorder">ตัวบันทึกมีเดีย </string>
+    <string name="grant_permission_to_record_audio">กำหนดสิทธิ์เพื่อบันทึกเสียง </string>
+    <string name="allow">อนุญาต </string>
+    <string name="notification_access">เข้าถึงการแจ้งเตือน </string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">ให้สิทธิเพื่อส่งการแจ้งเตือนคุณจากแอ็พ </string>
+    <string name="flashlight_on_off_when_ringing">เปิด/ปิดเมื่อมีการเรียกใช้ </string>
+    <string name="vibration_on_off_when_ringing">เปิด/ปิดการสั่นเมื่อเสียง </string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">การรู้จำจะถูกปิดเมื่อหน้าจอโทรศัพท์ยังตื่น </string>
+    <string name="dark_mode">โหมดเข้ม </string>
+    <string name="user_canceled">ยกเลิกแล้ว </string>
+    <string name="purchase_failed">การซื้อล้มเหลว </string>
+    <string name="purchasedSuccessfully">ซื้อเรียบร้อยแล้ว </string>
+    <string name="bought">ซื้อ </string>
+    <string name="buyFor">ซื้อสำหรับ </string>
+    <string name="accept">ยอมรับ</string>
+
+
+    <string name="use_this_app_without_seeing_any_advertisement">ใช้แอพนี้โดยไม่ต้องดูโฆษณาใด ๆ</string>
+    <string name="all_premium_items">รายการพรีเมี่ยมทั้งหมด</string>
+    <string name="buy_for_rs_480_00">ซื้อในราคา ฿ 480.00</string>
+    <string name="no_more_ads">ไม่มีโฆษณาอีกต่อไป</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">สลับไปที่โหมดอัจฉริยะด้วยโฆษณาวิดีโอด่วน</string>
+    <string name="skip_ad">ข้ามโฆษณา</string>
+    <string name="video_starting_in">วิดีโอเริ่มต้นใน</string>
+    <string name="on">บน</string>
+    <string name="off">ปิด</string>
+
+</resources>

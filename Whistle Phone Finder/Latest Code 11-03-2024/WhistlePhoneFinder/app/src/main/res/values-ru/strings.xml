@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Свисток Поиска Телефона </string>
+    <string name="thanksForRatingUs"> Спасибо За Рейтинг Сша </string>
+    <string name="do_you_have_a_suggestion_or_found_some_bug_let_us_know_in_feed_below">Что вы думаете о нашем приложении? </string>
+    <string name="PP_Introduction">Введение </string>
+    <string name="Introduction_text">Если вы решили использовать наше приложение, то вы соглашитесь на сбор и использование информации в связи с этой политикой. Персональная информация, которую мы собираем, используется для предоставления и улучшения функциональности. Мы не будем использовать вашу информацию ни с кем, кроме как описано в этой политике конфиденциальности. </string>
+    <string name="PP_Storage_Permissoin">Разрешение на хранение </string>
+    <string name="PP_Storage_Permission_Text">Мы требуем разрешения на хранение вашего телефона для завершения основных операций приложения. Если вы хотите получить полную функциональность нашего приложения, вы должны предоставить разрешение на хранение нашему приложению. С этим разрешением приложение может читать/изменять содержимое вашего телефона. Однако мы не будем собирать ваши данные ни для личного, ни для коммерческого использования. </string>
+    <string name="PP_Children_Policy">Стратегия защиты детей </string>
+    <string name="Children_policy_Text">Это приложение не касается никого младше 13 лет. Мы сознательно не собираем информацию о личности детей в возрасте до 13 лет. </string>
+    <string name="PP_Other_Permissions">Другие права доступа </string>
+    <string name="PP_Other_Permissions_Text">
+<ul>
+<li>
+<b>Контакты чтения/записи </b>
+-Создание резервной копии и восстановление контактов
+</li>
+</ul>
+</string>
+    <string name="PP_Information_Collection">Сбор и использование информации </string>
+    <string name="PP_Information_Collection_Text">Мы не получим лишних данных и не будем делиться с кем-либо. Информация, которую мы запросили, сохраняется на вашем устройстве и не собирается нам каким-либо образом. Приложение использует службы третьих сторон, которые могут собирать информацию, которая используется для идентификации вас, например, Google. </string>
+    <string name="whistlePhoneFinderHaveBeenEnabled">Функция поиска по телефону включена! </string>
+    <string name="ok">OK </string>
+    <string name="loading">Загрузка </string>
+    <string name="loadingAd">Загрузка дополнения </string>
+    <string name="confirm_exit">Подтвердите выход! </string>
+    <string name="are_you_sure_you_want_to_exit">Вы действительно хотите выйти? </string>
+    <string name="yes">Да </string>
+    <string name="no">Нет </string>
+    <string name="exit">Выход </string>
+    <string name="weNeedSomeAccess">Нам нужен доступ. </string>
+    <string name="enableTheAppAccess">Включите разрешения для лучшей функциональности. </string>
+    <string name="selectYourNativeLanguage">Выберите язык </string>
+    <string name="searchLanguage">Выбрать язык </string>
+    <string name="vibration">Вибрация </string>
+    <string name="heartbeat_type">Тип контрольного сигнала </string>
+    <string name="according_to_ringtone">Согласно рингтону </string>
+    <string name="continuous">Непрерывный </string>
+    <string name="language">Язык </string>
+    <string name="whistle_sensitivity">Чувствительность свистка </string>
+    <string name="smart_mode">Умный режим </string>
+    <string name="themes">Темы </string>
+    <string name="ringtone">Рингтон </string>
+    <string name="length_seconds">Длина тома </string>
+    <string name="custom_1">Пользовательский 1 </string>
+    <string name="custom_2">Пользовательский 2 </string>
+    <string name="custom_3">Пользовательский 3 </string>
+    <string name="select_from_phone">Выбрать из телефона </string>
+    <string name="volume">Том </string>
+    <string name="rate_your_opinion">Ваше мнение </string>
+    <string name="help_us_to_improve_on_play_store">Помогите нам улучшить игру в магазине. </string>
+    <string name="flashlight">Фонарик </string>
+    <string name="blinking">Мигание </string>
+    <string name="feedback">Отзыв! </string>
+    <string name="describe_your_experience_here">Опишите здесь свой опыт. </string>
+    <string name="cancel">Отмена </string>
+    <string name="submit">Передать </string>
+    <string name="remove_ads">Удалить объявления </string>
+    <string name="settings">Параметры </string>
+    <string name="rate_app">Приложение скорости </string>
+    <string name="share_app">Поделиться приложением </string>
+    <string name="more_app">Еще приложение </string>
+    <string name="privacy_policy">политика конфиденциальности </string>
+    <string name="whistle">Свисток </string>
+    <string name="phone_finder">Поиск по телефону </string>
+    <string name="get_started">Начать </string>
+    <string name="media_recorder">Регистратор носителей </string>
+    <string name="grant_permission_to_record_audio">Предоставьте разрешение на запись звука. </string>
+    <string name="allow">Разрешить </string>
+    <string name="notification_access">Доступ для уведомлений </string>
+    <string name="grant_permission_to_send_you_notification_from_the_app">Предоставьте разрешение на отправку уведомления из приложения. </string>
+    <string name="flashlight_on_off_when_ringing">Фонарь при звонке/выключение при звонке </string>
+    <string name="vibration_on_off_when_ringing">Вибро/выключение при звонке </string>
+    <string name="whistle_recognition_is_turned_off_when_the_phone_screen_is_awake">Распознавание свистка выключалось, когда экран телефона не спит </string>
+    <string name="dark_mode">Темный режим </string>
+    <string name="user_canceled">Отменено </string>
+    <string name="purchase_failed">Не удалось приобрести </string>
+    <string name="purchasedSuccessfully">Приобретено Успешно. </string>
+    <string name="bought">Куплен </string>
+    <string name="buyFor">Купить для </string>
+    <string name="accept">Принимать</string>
+
+    <string name="use_this_app_without_seeing_any_advertisement">Используйте это приложение, не видя рекламы</string>
+    <string name="all_premium_items">Все ПРЕМИУМ ТОВАРЫ</string>
+    <string name="buy_for_rs_480_00">КУПИТЬ за 480,00 рупий</string>
+    <string name="no_more_ads">Больше никакой рекламы</string>
+
+    <string name="switch_to_smart_mode_with_a_quick_video_ad">Переключитесь в умный режим с помощью быстрой видеорекламы.</string>
+    <string name="skip_ad">Пропустить рекламу</string>
+    <string name="video_starting_in">Видео начинается через</string>
+    <string name="on">на</string>
+    <string name="off">от</string>
+</resources>
